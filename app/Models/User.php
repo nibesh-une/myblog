@@ -23,6 +23,12 @@ class User extends AuthUser
         'role'
     ];
 
+
+    public function post()
+    {
+        return $this->hasOne(Post::class);
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *

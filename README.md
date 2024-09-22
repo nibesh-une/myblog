@@ -13,6 +13,19 @@ This is a Laravel 11 application with role-based access control for two primary 
 - **MongoDB Integration:** Database setup using MongoDB.
 - **Laravel UI:** Bootstrap integrated for frontend UI components.
 
+## API Endpoints
+
+Following API routes:
+
+- **GET All Posts:**
+  - `GET /api/posts`
+  - lists  all blog posts.
+  
+- **GET Single Post by ID:**
+  - `GET /api/posts/{id}`
+  - Get the details of a specific post by its ID.
+
+
 ## Installation
 
 ### 1. Clone the repository

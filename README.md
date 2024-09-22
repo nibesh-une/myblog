@@ -1,6 +1,10 @@
 # Laravel Project
 
-This is a Laravel 11 application with role-based access control for two primary roles: **Admin** and **Author**. Admins can access all routes. Authors can only access post routes of those they have created.
+
+[GitHub Repository](https://github.com/nibesh-une/myblog)
+
+
+This is a Laravel 11 application with role-based access control for two primary roles: **Admin** and **Author**. Admins can access all routes. Authors can only access post routes of those they have created. APi endpoins for post list and detail
 
 ## Features
 
@@ -26,6 +30,11 @@ Following API routes:
   - Get the details of a specific post by its ID.
 
 
+
+## Challenges
+  - Integrating with MongoDB and handling data schemas.
+  - Implementing Sanctum for secure API access.
+  
 ## Installation
 
 ### 1. Clone the repository
